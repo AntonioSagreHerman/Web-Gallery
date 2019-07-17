@@ -1,0 +1,87 @@
+ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+/*FIN DEL RESET CSS*/
+
+body{
+	font-size: 62.5%;
+	margin-top: 25px;
+}
+
+h1{
+	font:normal 2.8em Verdana,sans-serif;
+	background: -webkit-linear-gradient(top, #0125DB, #0FB3F0);
+	width: 90%;
+	border-radius: 10px;
+	margin:15px auto;
+	text-align: center;
+	padding: 10px;
+	color: #FFFFFF;
+	box-shadow: #00F 5px 5px 10px;
+	text-shadow: #EDF0F7 2px 2px 3px;
+}
+
+
+
+
+section{
+	width: 100%;
+	border-top: 1px dashed #DED7D7;
+	margin: 15px auto;
+	margin-top: 70px;
+	display: inline-block;
+	align-items: center;
+	
+	
+	
+}
+
+
+figure{
+	float: left;
+	margin: auto 30px;
+
+}
+
+figure img:hover{
+	-webkit-transform: scale(1.5);
+	
+	
+}
+
+figure img{
+	padding: 4px;
+	border-radius: 20px;
+	background: #BBBABA;
+	-webkit-transition:-webkit-transform 0.4s ease-in-out 0.01s;
+	box-shadow: grey 5px 5px 3px;
+	margin: 20px auto;
+}
+
+
+footer{
+	clear: both;
+	padding-top: 100px;
+}
+footer p{
+	font:1.6em 	Georgia,times,serif;
+	color: grey;
+	margin: 10px 8px;
+	text-align: center;
+}
+figcaption{
+	text-align: center;
+	font-family: Arial;
+	font-size: 1.3em;
+	margin-top: 5px;
+}
